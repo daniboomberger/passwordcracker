@@ -31,5 +31,5 @@ for word in wordlist:
         password_found = False
         break
 
-if !password_found:
+if not password_found:
     print(f'This wordlist {wordlist_path} was useless')
